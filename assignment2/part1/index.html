@@ -134,7 +134,6 @@
 
     <div class="further-info">
       <!-- insert images with srcsets and sizes -->
-
       <a href="https://www.mozilla.org/en-US/firefox/new/">
         <img src="firefox_logo-only_RGB.png" alt="Firefox logo"
           srcset="firefox_logo-only_RGB_400px.png 400w, firefox_logo-only_RGB_120px.png 120w"
@@ -153,18 +152,20 @@
       </a>
 
       <a href="https://developer.mozilla.org/en-US/">
-        <img src="mdn.svg">
+        <img src="mdn.svg" alt="Learn web development with MDN">
       </a>
 
       <div class="clearfix"></div>
     </div>
 
+    <!-- insert picture element -->
     <div class="red-panda">
-      <!-- insert picture element -->
-      <img src="red-panda.jpg" alt="Red Panda" srcset="red-panda_1200px.jpg 1200w , red-panda_600px.jpg 600w"
-        sizes="(max-width: 1300px) 600px, 1200px">
-
+      <picture>
+        <source media="(max-width: 600px)" srcset="red-panda_600px.jpg">
+        <img src="red-panda_1200px.jpg" alt="a red panda">
+      </picture>
     </div>
+  </main>
   </main>
 </body>
 
