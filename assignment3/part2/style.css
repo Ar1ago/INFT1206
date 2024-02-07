@@ -1,0 +1,17 @@
+html {
+  font-family: sans-serif;
+}
+
+div {
+  width: 400px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 18px;
+  background-color: royalblue;
+  border-radius: 20px;
+  background-image: linear-gradient();
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+/* Your CSS below here */
