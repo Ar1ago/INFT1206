@@ -11,7 +11,9 @@ div {
   font-size: 18px;
   background-color: royalblue;
   border-radius: 20px;
+  border: 1px solid blue;
   background-image: linear-gradient();
-  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+  inset -2px -2px 3px rgba(0, 0, 0, 0.6), 2px 2px 5px black;
 }
 /* Your CSS below here */
