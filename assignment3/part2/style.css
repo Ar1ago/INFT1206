@@ -1,4 +1,3 @@
-
 html {
   font-family: sans-serif;
 }
@@ -11,20 +10,19 @@ div {
   margin-right: auto;
   text-align: center;
   font-size: 18px;
-  color: yellow ;
+  color: yellow;
   text-shadow: 2px 2px 1px black;
   background-color: royalblue;
   border-radius: 20px;
   border: 1px solid blue;
-  background-image: linear-gradient(
-    to top left,
-    rgb(0, 153, 255 ),
-    rgb(13, 92, 228 ),
-    rgba(198, 227, 56, .2)
-  );
-  box-shadow: 
-  inset 2px 2px 3px rgba(255, 255, 255, 0.6),
-  inset -2px -2px 3px rgba(0, 0, 0, 0.6), 
-  2px 2px 5px black;
+  background-image: linear-gradient(to top left,
+      rgb(0, 153, 255),
+      rgb(13, 92, 228),
+      rgba(198, 227, 56, .2));
+  box-shadow:
+    inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6),
+    2px 2px 5px black;
 }
+
 /* Your CSS below here */
