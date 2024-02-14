@@ -8,6 +8,7 @@ body {
   margin: 0 auto;
   min-width: 1000px;
   max-width: 1400px;
+  font-size: 10px; /* site-wide 10px base font size */
 }
 
 /* Layout */
@@ -43,3 +44,40 @@ header, footer {
 }
 
 /* WRITE YOUR CODE BELOW HERE */
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.7;
+}
+
+a:link {
+
+}
+a:hover, a:focus {
+  text-decoration: none;
+  color: #464440;
+}
+a:visited {
+  color: #a69066
+}
+a:focus {
+  outline: none;
+}
+
+ul, ol {
+
+}
+li {
+  line-height: 1.7;
+}
+
