@@ -110,8 +110,6 @@ function loop() {
   requestAnimationFrame(loop);
 }
 
-loop();
-
 function loop() {
   ctx.fillStyle = "rgb(0 0 0 / 25%)";
   ctx.fillRect(0, 0, width, height);
@@ -125,5 +123,5 @@ function loop() {
   requestAnimationFrame(loop);
 }
 
-
+loop();
 
