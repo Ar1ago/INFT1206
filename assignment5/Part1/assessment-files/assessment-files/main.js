@@ -28,6 +28,7 @@ form.onsubmit = function(e) {
   submitComment();
 };
 
+// This is code to actually submit a comment 
 function submitComment() {
   const listItem = document.createElement('li');
   const namePara = document.createElement('p');
